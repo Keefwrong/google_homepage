@@ -1,0 +1,113 @@
+ul, li{
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	display: inline-block;
+}
+.topnav{
+	padding-top: 14px;
+	padding-right: 29px;
+	float:right;
+}
+ul li{
+	margin-left:8px;
+	vertical-align: middle;
+}
+a{	
+	color:#555555;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#sharebutton a{
+	padding: 7px 13px;
+	background-color: #F5F5F5;
+	border-radius: 2px;
+}
+#sharebutton a:hover{
+	text-decoration: none;
+	background-color: #DCDCDC;
+}
+#userphoto{
+	border-radius: 50%;
+}
+
+.center{
+	display: block;
+	width: 100%;
+	position: fixed;
+	top: 25%;
+}
+#logo img{
+	display: block;
+
+	height: 95px;
+	width: 269px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 22px;
+}
+#search form input{
+	width: 36%;
+	height: 26px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 13px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CFCFCF;
+}
+#search form div{
+	width: 240px;
+	padding: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#search form div button{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
+	border-radius: 2px;
+
+	background-color: #F5F5F5;
+
+
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #555;
+	padding: 6px 9px;
+}
+#search form div button:hover{
+	box-shadow: 0px 1px 3px #CFCFCF;
+}
+#b1{
+	margin-right: 8px;
+}
+
+.botnav{
+	height: 40px;
+	width:100%;
+	background-color: #F5F5F5;
+	border-top: 1px solid #DCDCDC;
+	position: absolute;
+	bottom:0px;
+}
+.botnav nav{
+	padding: 14px 20px;
+}
+.botnav nav ul:first-child{
+	float:left;
+}
+.botnav nav ul:first-child li{
+	margin-right: 15px;
+}
+.botnav nav ul:last-child{
+	float:right;
+}
+.botnav nav ul:last-child li{
+	margin-left: 15px;
+}
