@@ -93,58 +93,6 @@ a:hover{
 	margin-right: 8px;
 }
 
-
-/*bottom nav bar*/
-
-/*What I had before the trouble started*/
-
-/*
-.botnav{
-	width:100%;
-	position: absolute;
-	bottom:0px;
-}
-.botnav nav{
-	background-color: #F5F5F5;
-	border-top: 1px solid #DCDCDC;
-	padding: 14px 20px;
-}
-
-*/
-
-
-
-/*The pieces that shafted my butt*/
-/*
-.botnav{
-	width:100%;
-	position: absolute;
-	bottom:0px;
-}
-.botnav nav{
-	background-color: #F5F5F5;
-	border-top: 1px solid #DCDCDC;
-	padding: 14px 20px;
-}
-.botnav nav ul:first-child{
-	float:left;
-}
-.botnav nav ul:first-child li{
-	margin-right: 15px;
-}
-.botnav nav ul:last-child{
-	float:right;
-}
-.botnav nav ul:last-child li{
-	margin-left: 15px;
-}
-*/
-
-
-
-
-/*What I ended with*/
-/*
 .botnav{
 	height: 40px;
 	width:100%;
@@ -168,4 +116,3 @@ a:hover{
 .botnav nav ul:last-child li{
 	margin-left: 15px;
 }
-*/
